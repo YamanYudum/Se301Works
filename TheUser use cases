@@ -1,0 +1,37 @@
+USE CASES
+
+Use case name: Register
+Participating actor: Initiated by User
+Flow of events:
+1.	The User opens OnlineFood web page.
+2.	The User clicks the sign up button for register to the web site.
+3.	OnlineFood fetches the screen where the user can enters persanol information.
+4.	The User fills required information such as him/her name, surname, personal mail adress , phone number, neighbourhood to the related textfield and creates password then presses sign up button.
+5.	OnlineFood checks correctness and fullness of the information entered by the user and shows a message that registration was successful or not successful. If registration isnt successful, asks for retry.
+Entry condition:           The User wasn’t registered before.
+                                        Sign up button clicked.
+Exit condition:               The User registers successfully.
+Quality Requirements:  None.
+
+
+Use case name: FoodOrder
+Participating actor: Initiated by User
+Flow of events:
+1.	The User who is registered before the OnlineFood fills username and password to the related text field then clicks login button.
+2.	OnlineFood checks correctness of the information entered by the user and fetches the sceen where the user can choose him/her country.
+3.	The User chooses him/her country.
+4.	OnlineFood fetches the screen where the user can chooses him/her prefer food for order, this screen contains of restaurants name and symbols information about the recorded restaurant to the system.
+5.	The User clicks the prefered restaurant name button.
+6.	OnlineFood fetches the screen which is the contain all food and drinks list.
+7.	The User clicks plus button for added the prefered choices about him/her food order then click the confirm basket button.
+8.	OnlineFood fetches the screen which is written the wanted adress information.
+9.	The User fills him/her the address information and click the save button.
+10.	OnlineFood fetches the screen which is consists button group for choose type of payment and order button.
+11.	The User chooses true button of button group for prefered payment type the click the order button.
+
+Entry condition:                The User is registered before the system.
+                                             The User fills the right sign up informations to the related text field.
+Exit condition:                    The User have to fills all the required informations about him/her address.
+                                              The User have to click one of the button of button group for payment type.
+                                              The User fills the right card number to the related text field.
+Quality Requirements: This system can include the ChoosePaymentType use case. The ChoosePaymentType use case initiated when User invokes the food order function with ChoosePaymentType use case food order can be successfully done.
