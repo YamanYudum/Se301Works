@@ -1,0 +1,14 @@
+USE CASES
+
+Use case name: Register
+Participating actor: Initiated by User
+Flow of events:
+1.	The User opens OnlineFood web page.
+2.	The User clicks the sign up button for register to the web site.
+3.	OnlineFood fetches the screen where the user can enters persanol information.
+4.	The User fills required information such as him/her name, surname, personal mail adress , phone number, neighbourhood related textfield and creates password then presses sign up button.
+5.	OnlineFood checks correctness and fullness of information entered by the user and shows a message that registration was successful or not successful. If registration isnt successful, asks for retry.
+Entry condition:       The User wasn’t registered before.
+                       Sign up button clicked.
+Exit condition:        The User registers successfully.
+Quality Requirements:  None.
