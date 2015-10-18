@@ -8,9 +8,9 @@ Flow of events:
 3.	OnlineFood fetches the screen where the user can enters persanol information.
 4.	The User fills required information such as him/her name, surname, personal mail adress , phone number, neighbourhood to the related textfield and creates password then presses sign up button.
 5.	OnlineFood checks correctness and fullness of the information entered by the user and shows a message that registration was successful or not successful. If registration isnt successful, asks for retry.
-Entry condition:           The User wasn’t registered before.
-                                        Sign up button clicked.
-Exit condition:               The User registers successfully.
+Entry condition:       The User wasn’t registered before.
+                       Sign up button clicked.
+Exit condition:        The User registers successfully.
 Quality Requirements:  None.
 
 
@@ -29,9 +29,9 @@ Flow of events:
 10.	OnlineFood fetches the screen which is consists button group for choose type of payment and order button.
 11.	The User chooses true button of button group for prefered payment type the click the order button.
 
-Entry condition:                The User is registered before the system.
-                                             The User fills the right sign up informations to the related text field.
-Exit condition:                    The User have to fills all the required informations about him/her address.
-                                              The User have to click one of the button of button group for payment type.
-                                              The User fills the right card number to the related text field.
-Quality Requirements: This system can include the ChoosePaymentType use case. The ChoosePaymentType use case initiated when User invokes the food order function with ChoosePaymentType use case food order can be successfully done.
+Entry condition:        The User is registered before the system.
+                        The User fills the right sign up informations to the related text field.
+Exit condition:         The User have to fills all the required informations about him/her address.
+                        The User have to click one of the button of button group for payment type.
+                        The User fills the right card number to the related text field.
+Quality Requirements:   This system can include the ChoosePaymentType use case. The ChoosePaymentType use case initiated when User invokes the food order function with ChoosePaymentType use case food order can be successfully done.
