@@ -44,7 +44,7 @@ Flow of events:
 3.	The User selects him/her country.
 4.	OnlineFood fetches the screen which is the user known as the registered user.
 5.	The User clicks online messaging button.
-6.	OnlineFood fetches the screen which is consist of two text field for one of them is which food order, and the other one is subject.
+6.	OnlineFood fetches the screen which is consist of three text field for one of them which order do you need support , the other one is support's subject and last one is orderId.
 7.	The User fills related text area then click start online support button.
 8.	The Online Supporter responds him/her message online.
 Entry condition:       The User is registered before the system.
