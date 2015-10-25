@@ -64,8 +64,7 @@ Flow of events:
 3.	The Restaurant Responsible fills related text field with daily restaurant checking information and gives these information about is restaurant still be included OnlineFood site’s restaurant list or will be remove, this information gave through the availability board and with clicks save button under the text field.
 4.	OnlineFood saves this daily information about restaurant and added to the availability board.
 5.	The Admin reviews the availability of restaurant’s information on the AvailabilityBoard writtenn by the restaurant responsible and according this add or delete restaurant name to the OnlineFood restaurant lists.
-Entry condition:              The Restaurant Responsible fiils the right email and password to the related   
-                                           text field.                                 
+Entry condition:              The Restaurant Responsible fiils the right email and password to the related text field.                                 
 Exit condition:                 The Restaurant Responsible gives daily information about availability of restaurant to the related text field and click the save button.
 Quality Requirements: This system can include the AvailabilityBoard use case. The AvailibilityBoard use case initiated when Restaurant Responsible invokes DailyRestaurantCheck function. When invoked with in this use case, all availability informations about restaurants can seen through the AvailabilityBoard.
 
@@ -82,7 +81,6 @@ Flow of events:
 Entry condition:              The Restaurant Responsible fiils the right email and password to the related  text field.                                 
 Exit condition:                 The Restaurant Responsible gives information about restaurant time check availability and click the save button 
 Quality Requirements: This system can include the AvailabilityBoard use case. The AvailibilityBoard use case initiated when Restaurant Responsible invokes RestaurantCheckTime function. When invoked with in this use case, restaurant’s time informations which are the restaurant close or open at that time interval  can seen on  the AvailabilityBoard 
-
 
 Use case name:           OnlineSupport                                                                            Low Priority
 Participating actor:   Initiated by Online Supporter
