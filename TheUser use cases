@@ -17,8 +17,8 @@ Use case name:                  FoodOrder	                                      
 Participating actor:          Initiated by User
 Flow of events:
 1.	The User who is registered before the OnlineFood fills email and password to the related text field then clicks login button.
-2.	OnlineFood checks correctness of the information entered by the user and fetches the sceen where the user can choose him/her country.
-3.	The User chooses him/her country.
+2.	OnlineFood checks correctness of the information entered by the user and fetches the sceen where the user can choose him/her city.
+3.	The User chooses him/her city.
 4.	OnlineFood fetches the screen where the user can chooses him/her prefer food for order, this screen contains of restaurants name and symbols information about the recorded restaurant to the system.
 5.	The User clicks the prefered restaurant name button.
 6.	OnlineFood fetches the screen which is contain all food, drinks list and confirm basket can seen upper left corner of a screen, it shows us order details and total cost.
@@ -41,7 +41,7 @@ Participating actor:   Initiated by User
 Flow of events:
 1.	The User who is registered before the OnlineFood fills email and password to the related text field then clicks login button.
 2.	OnlineFood checks correctness of the information entered by the user and fetches the sceen where the user can choose him/her country.
-3.	The User selects him/her country.
+3.	The User selects him/her city.
 4.	OnlineFood fetches the screen which is the user known as the registered user.
 5.	The User clicks online messaging button.
 6.	OnlineFood fetches the screen which is consist of three text field for one of them which order do you need support , the other one is support's subject and last one is orderId.
@@ -50,7 +50,7 @@ Flow of events:
 Entry condition:       The User is registered before the system.
                                    The User is ordered food before this sign up.
 Exit condition:          The Online Supporter have to be respons him/her message.         
-Quality Requirements:  This use case extends the ChooseCountry. It is initiated by the system whenever the food ordering problem occurs at that time the User and the OnlineSupporter messaging with each other about occured problem.
+Quality Requirements:  This use case extends the ChooseCity. It is initiated by the system whenever the food ordering problem occurs at that time the User and the OnlineSupporter messaging with each other about occured problem.
 
 
 Use Case
@@ -94,6 +94,6 @@ Flow of events:
 Entry condition:       The User is registered before the system.
                                    The User is ordered food before this sign up.
 Exit condition:          The Online Supporter have to be respons him/her message.         
-Quality Requirements:  This use case extends the ChooseCountry. It is initiated by the system whenever the food ordering problem occurs at that time the User and the OnlineSupporter messaging with each other about occured problem.
+Quality Requirements:  This use case extends the ChooseCity. It is initiated by the system whenever the food ordering problem occurs at that time the User and the OnlineSupporter messaging with each other about occured problem.
 
 
